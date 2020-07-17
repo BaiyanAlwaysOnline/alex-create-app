@@ -1,0 +1,40 @@
+{
+  "name": "alex-create-app",
+  "version": "2.0.1",
+  "description": "create your app easier",
+  "main": "index.js",
+  "author": "Alex Bai",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "alex-create-app": "./bin/www"
+  },
+  "keywords": [
+    "cli",
+    "React",
+    "Vue"
+  ],
+  "homepage": "https://github.com/BaiyanAlwaysOnline/alex-create-app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BaiyanAlwaysOnline/alex-create-app"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "commander": "^5.1.0",
+    "consolidate": "^0.15.1",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.3",
+    "inquirer": "^7.3.2",
+    "metalsmith": "^2.3.0",
+    "ncp": "^2.0.0",
+    "ora": "^4.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
